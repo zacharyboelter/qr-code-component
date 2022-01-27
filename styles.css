@@ -26,10 +26,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 150px;
+    margin: 150px 150px 30px 150px;
     background-color: var(--white);
     padding: 10px 10px;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 img{
@@ -42,6 +43,7 @@ img{
     text-align: center;
     margin: px;
     font-family: 700;
+    color: var(--dark-blue);
 }
 
 .card-copy {
@@ -58,5 +60,5 @@ img{
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--dark-blue)
 }
